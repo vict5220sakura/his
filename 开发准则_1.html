@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>开发准则</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/开发准则_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/开发准则_1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u129" class="ax_default _三级标题">
+        <div id="u129_div" class=""></div>
+        <div id="u129_text" class="text ">
+          <p><span>1, 域名跳转全部在前端web逻辑中完成, 后端只负责信息的获取与提交</span></p><p><span>2, 统一前后端响应参数</span></p><p><span>{</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;code&quot;: &quot;000000&quot;, // 6位code 000000表示正常</span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;msg&quot;: &quot;&quot;, // 错误信息 </span></p><p><span>&nbsp;&nbsp;&nbsp; &quot;data&quot;: // data信息 </span></p><p><span>}</span></p><p><span>登录异常统一跳转到首页, 域名取当前浏览器域名</span></p><p><span>3, 统一mysql主键使用id生成器后端生成, 不使用自增主键</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u130" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u131" class="ax_default table_cell">
+          <img id="u131_img" class="img " src="images/开发准则_1/u131.png"/>
+          <div id="u131_text" class="text ">
+            <p><span>code</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u132" class="ax_default table_cell">
+          <img id="u132_img" class="img " src="images/开发准则_1/u132.png"/>
+          <div id="u132_text" class="text ">
+            <p><span>说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u133" class="ax_default table_cell">
+          <img id="u133_img" class="img " src="images/开发准则_1/u133.png"/>
+          <div id="u133_text" class="text ">
+            <p><span>000000</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u134" class="ax_default table_cell">
+          <img id="u134_img" class="img " src="images/开发准则_1/u134.png"/>
+          <div id="u134_text" class="text ">
+            <p><span>正常</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u135" class="ax_default table_cell">
+          <img id="u135_img" class="img " src="images/开发准则_1/u135.png"/>
+          <div id="u135_text" class="text ">
+            <p><span>999999</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u136" class="ax_default table_cell">
+          <img id="u136_img" class="img " src="images/开发准则_1/u136.png"/>
+          <div id="u136_text" class="text ">
+            <p><span>登录异常</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
